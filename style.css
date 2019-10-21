@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    background-color:black;
+    color:white;
+    font-family: 'Raleway', sans-serif;
+}
+
+h1{
+    text-align: center;
+    margin-top: 5vh;
+}
+
+#meme-form{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#meme-form input{
+    justify-content: center;
+    margin: 0 auto;
+    display: flex;
+    flex-direction:column;
+}
+
+#meme-form div{
+    margin:0 auto;
+    justify-content: space-around;
+}
+
+.banner{
+    width:100%;
+    margin:0;
+    padding:2vh;
+    background-color: lightblue;
+    margin-bottom:5vh;
+}
+
+.remove-meme{
+    z-index:10;
+}
+
+.display{
+    background-color:darkgray;
+    width:10%;
+}
+
+.btn{
+    width: 20vh;
+    padding: 1vh;
+    border-radius: 4vh;
+    background-color: lightblue;
+    text-align:center;
+    margin: 0 auto;
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    border:none;
+    color:white;
+}
+
+.btn:hover{
+
+}
